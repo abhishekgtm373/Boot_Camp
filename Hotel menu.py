@@ -62,6 +62,7 @@ while(check<2):
 #Actions for unprepared food----------------------------------------------------------------------------------------
     if int(threemusketeers) == 1:
         print('Thanks for waiting\nHere are your order details\n', orderid, priceholder)
+        sys.exit()
     elif int(threemusketeers) == 2:
         print('Hope to see you again\nHave a good day...')
         sys.exit()
